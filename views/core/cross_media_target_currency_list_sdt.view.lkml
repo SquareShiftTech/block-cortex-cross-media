@@ -18,7 +18,7 @@ view: cross_media_target_currency_list_sdt {
       SELECT
         TargetCurrency as target_currency
       FROM
-        `@{GCP_PROJECT_ID}.@{REPORTING_DATASET}.CrossMediaCampaignDailyAgg`
+        `bigquery-expertise.K9_REPORTING.CrossMediaCampaignDailyAgg`
       GROUP BY
         1 ;;
   }

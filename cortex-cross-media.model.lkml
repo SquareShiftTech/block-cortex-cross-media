@@ -1,4 +1,4 @@
-connection: "@{CONNECTION_NAME}"
+connection: "block-cortex-cross-media"
 label: "Cortex Cross Media"
 
 include: "/components/**/*.lkml"

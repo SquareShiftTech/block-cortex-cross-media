@@ -1,15 +1,15 @@
 constant: CONNECTION_NAME {
-  value: "connection name"
+  value: "block-cortex-cross-media"
   export: override_required
 }
 
 constant: GCP_PROJECT_ID {
-  value: "gcp project id"
+  value: "bigquery-expertise"
   export: override_required
 }
 
 constant: REPORTING_DATASET {
-  value: "reporting dataset"
+  value: "K9_REPORTING"
   export: override_required
 }
 

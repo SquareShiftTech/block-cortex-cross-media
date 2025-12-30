@@ -2,7 +2,7 @@
 #--> Moved auto-generated view for the product_hierarchy_texts array to separate file
 
 view: cross_media_campaign_daily_agg {
-  sql_table_name: `@{GCP_PROJECT_ID}.@{REPORTING_DATASET}.CrossMediaCampaignDailyAgg` ;;
+  sql_table_name: `bigquery-expertise.K9_REPORTING.CrossMediaCampaignDailyAgg` ;;
 
   dimension: campaign_id {
     type: string
